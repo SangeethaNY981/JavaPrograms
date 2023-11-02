@@ -11,14 +11,14 @@ package threadConcept;
 //}
 
 class MyThread1 extends Thread {
-	public void run() {
+	 public  void run() {
 		System.out.println("No arg");
 	}
-	public void run(int i)
+	 void run(int i)
 	{
 		System.out.println("one-arg");  //to get this method need
 	}
-	public void run(int a,int b)
+	void run(int a,int b)
 	{
 		System.out.println("2 arg");
 	}
